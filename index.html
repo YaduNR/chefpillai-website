@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP 5 PROJECT</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span class="text-warning">Food</span>Hub</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleDark" class="carousel carousel-white slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+
+            <img src="https://lh3.googleusercontent.com/p/AF1QipM5FWggu3zDpN6jfI_8axKjSqcBEGUvodMOqqQK=s0" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5 class="color1"> "UNITED COCONUT"</h5>
+              <p class="para1">Hello and congratulation on the opening of UNITED COCONUT in kannur!Exciting to bring the flavors of Kerala to a new location.Wishing you success and many satisfied Customers</p>
+                <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://i0.wp.com/chefpillai.com/wp-content/uploads/elementor/thumbs/002-revised-q26xwg0us2kuuwdubwskzibduxfxvucuto1d9jfri8.jpg?ssl=1" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+              <h5 class="color2">Le Meriiden COCHINE</h5>
+              <p class="para2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://i0.wp.com/chefpillai.com/wp-content/uploads/2023/07/Reservations.jpg?fit=2293%2C1433&ssl=1" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5 class="color3"> Whitefield Bengaluru</h5>
+              <p class="para3">Strolling through Brigade Road is the best way to discover it.
+                The high street stores as well as street jewellery to tattoo parlours, this road has it all.
+                In keeping with the spirit of Brigade Road, the restaurant has a casual and laid-back charm to it.
+                Whether it is Chef Pillai’s Signature FISH NIRVANA or any of the dishes on the expansive menu, you can move from the mocktails, unique starters through the Main dishes and end up with his Signature Dessert offerings!
+                
+                </p>
+                <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--about section-->
+
+      <section id="about" class="about section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md12 col-12">
+              <div class="about-img">
+                <img src="About.jpeg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+              <div class="about-text">
+                  <h2 style="font-weight: bold; color: black;">Meet Chef<br><p style="color: rgb(206, 142, 59); font-size: xx-large;">Suresh Pillai</p></h2>
+                  <p>Chef Suresh Pillai, today’s special ambassador of Kerala cuisine to the world and Super Master Chef to over 1.7 million of his social media followers, has not lost that simplicity of an Island boy from the banks of the Ashtamudi lake in Kollam, Kerala.
+                    From his humble beginnings in Kerala, he spent 27 years honing his culinary skills in multiple kitchens including the BBC Masterchef Professionals.
+                    
+                    His travels took him to islands such as England, Australia and the Caribbean Islands as a culinary mentor to University students. 
+                    From fulfilling every Chef’s dream of opening his very own restaurant, Chef Suresh did this with astounding appreciation and feedback in Bengaluru, India’s garden city and tech capital.</p>
+                   <a href="#" class="btn btn-warning">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--service section-->
+
+      <section id="services" class="services section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                <h2>Our Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>  neque quos nobis iure expedita!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body" style="height: 7.8cm;">
+                  <i class="bi bi-subtract"></i>
+                  <h3 class="card-title">Hospitality</h3>
+                  <p class="lwad">"At Chef Pillai's, we offer a range of convenient services to meet your dining needs. Whether you prefer the ease of kerbside pickup, no-contact delivery, traditional delivery, or a quick takeaway, we've got you covered. Additionally.</p>
+                     <button class="btn btn-warning text-dark">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <i class="bi bi-slack"></i>
+                  <h3 class="card-title">Inclusivity</h3>
+                  <p class="lwad"> "Our establishment is designed to provide a welcoming atmosphere for all guests. 
+                    We take pride in being wheelchair-accessible, offering both seating and a car park for those with mobility needs.
+                     The ambiance is casual and cosy, suitable for families, groups alike.
+
+                  </p>
+                     <button class="btn btn-warning text-dark">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <i class="bi bi-playstation"></i>
+                  <h3 class="card-title">Convenience</h3>
+                  <p class="lwad"> "For a seamless dining experience, we recommend making reservations, though walk-ins are always welcome. Payments are hassle-free with options including  various mobile wallets. Families with children will find our restaurant accommodating,</p>
+                     <button class="btn btn-warning text-dark">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--portfolio section-->
+
+      <section id="portfolio" class="portfolio section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                <h2>Our Projects</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>  neque quos nobis iure expedita!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            
+
+            <div class="col-12 col-md-12 col-lg-12">
+              <div class="card text-center bg-white pb-2">
+                <div class="card-body text-dark">
+                  <div class="img-area mb-4">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipPr6w0lD8qb8lI_02zipCOU7fPXLAOQ235Y16r3=s680-w680-h510" alt="" class="img-fluid">
+                  </div>
+                  <h3 class="card-title">Doha Restaurant</h3>
+                  <p class="lead">Celebrating a successful year: 14 new projects launched, 450 teammates onboard, 11 RCP brands expanded. Awards won, books released, TV appearances, and collaborations. Despite sacrifices, I'm grateful for the support. Looking ahead to 50 outlets across 9 countries, with thanks to my incredible team and loved ones. Thank you all! ❤️ - Chef Pillai</p>
+                     <button class="btn bg-warning text-dark">Learn More</button>
+                </div>
+              </div>
+            </div>
+
+           
+          </div>
+        </div>
+      </section>
+
+      <!-- team section -->
+
+      <section id="team" class="team section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                <h2 style="color:brown;">Team RCP</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>  neque quos nobis iure expedita!</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center"  style="color: goldenrod;">
+                  <div class="card-body">
+                    <img src="team1.jpeg" alt="" class="img-fluid rounded-circle">
+                    <h3 class="card-title py-2"></h3>
+                    <p class="card-text"></p>
+
+                       <p class="socials">
+                        <i class="bi bi-twitter text-dark mx-1"></i>
+                        <i class="bi bi-facebook text-dark mx-1"></i>
+                        <i class="bi bi-instagram text-dark mx-1"></i>
+                        <i class="bi bi-linkedin text-dark mx-1"></i>
+                       </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center"  style="color: goldenrod;">
+                  <div class="card-body">
+                    <img src="team2.jpeg" alt="" class="img-fluid rounded-circle">
+                    <h3 class="card-title py-2"></h3>
+                    <p class="card-text"></p>
+
+                       <p class="socials">
+                        <i class="bi bi-twitter text-dark mx-1"></i>
+                        <i class="bi bi-facebook text-dark mx-1"></i>
+                        <i class="bi bi-instagram text-dark mx-1"></i>
+                        <i class="bi bi-linkedin text-dark mx-1"></i>
+                       </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center"  style="color: goldenrod;">
+                  <div class="card-body">
+                    <img src="team3.jpeg" alt="" class="img-fluid rounded-circle">
+                    <h3 class="card-title py-2"></h3>
+                    <p class="card-text"></p>
+
+                       <p class="socials">
+                        <i class="bi bi-twitter text-dark mx-1"></i>
+                        <i class="bi bi-facebook text-dark mx-1"></i>
+                        <i class="bi bi-instagram text-dark mx-1"></i>
+                        <i class="bi bi-linkedin text-dark mx-1"></i>
+                       </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center" style="color: goldenrod;">
+                  <div class="card-body">
+                    <img src="team4.jpeg" alt="" class="img-fluid rounded-circle">
+                    <h3 class="card-title py-2"></h3>
+                    <p class="card-text"></p>
+
+                       <p class="socials">
+                        <i class="bi bi-twitter text-dark mx-1"></i>
+                        <i class="bi bi-facebook text-dark mx-1"></i>
+                        <i class="bi bi-instagram text-dark mx-1"></i>
+                        <i class="bi bi-linkedin text-dark mx-1"></i>
+                       </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section -->
+
+      <section id="contact" class="contact section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>  neque quos nobis iure expedita!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row m-0">
+            <div class="col-md-12 p-0 pt-4 p-4 m-auto">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-3">
+                    <input type="text" class="form-control" required placeholder="Your full name">
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="md-3">
+                    <input type="email" class="form-control" required placeholder="Your Email Here">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="inputAddress">Message</label>
+                  <textarea class="form-control" cols="30" rows="10" placeholder="Type your message here.."></textarea>
+                </div>
+
+                <button class="btn btn-warning btn-lg btn-block mt-3 " >Send Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+
+      <footer class="bg-dark p-2 text-center">
+        <div class="container">
+          <p class="text-white">All Right Reserved @website Name</p>
+        </div>
+      </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
